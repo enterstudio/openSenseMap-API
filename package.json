@@ -22,7 +22,7 @@
     "honeybadger": "^1.2.1",
     "isemail": "^3.0.0",
     "jsonpath": "^0.2.12",
-    "jsonwebtoken": "^7.4.3",
+    "jsonwebtoken": "^8.0.0",
     "lodash.isequal": "^4.5.0",
     "millify": "^2.0.1",
     "moment": "^2.18.1",
@@ -39,7 +39,8 @@
     "simple-statistics": "^4.1.1",
     "stream-transform": "^0.1.2",
     "stringify-stream": "^1.0.5",
-    "uuid": "^3.1.0"
+    "uuid": "^3.1.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "@turf/invariant": "^4.6.0",
@@ -55,7 +56,9 @@
     "start": "node app.js",
     "test": "node node_modules/.bin/mocha tests/tests.js",
     "pretest": "node tests/waitForHttp",
-    "lint": "./node_modules/.bin/eslint --fix app.js \"{tests,lib}/**/*.js\""
+    "lint": "./node_modules/.bin/eslint --fix app.js \"{tests,lib}/**/*.js\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -84,5 +87,6 @@
       "getData",
       "calculateIdw"
     ]
-  }
+  },
+  "snyk": true
 }
