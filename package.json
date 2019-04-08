@@ -16,7 +16,7 @@
     "@turf/square-grid": "^4.6.0",
     "@turf/triangle-grid": "^4.6.0",
     "apicache": "^0.9.0",
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^2.0.0",
     "bunyan": "^1.8.12",
     "csv-stringify": "^1.0.4",
     "honeybadger": "^1.2.1",
