@@ -33,7 +33,7 @@
     "passport-jwt": "^3.0.0",
     "passport-local": "^1.0.0",
     "request": "^2.81.0",
-    "request-promise-native": "^1.0.4",
+    "request-promise-native": "^1.0.9",
     "restify": "^5.2.0",
     "restify-errors": "^5.0.0",
     "simple-statistics": "^4.1.1",
